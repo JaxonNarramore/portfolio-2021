@@ -1,0 +1,39 @@
+.about-container {
+    display: flex;
+    flex-flow: column;
+    /* background-color: rgb(2, 183, 255); */
+}
+
+.about-image {
+    display: flex;
+}
+
+.about-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 auto;
+    line-height: 40px;
+    padding-bottom: 60px;
+}
+
+.image {
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    width: 250px;
+}
+
+@media only screen and (max-width: 800px) {
+    .about-container {
+      display: flex;
+      flex-flow: column;
+    }
+    .about-text {
+        width: 400px;
+    }
+  }

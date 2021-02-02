@@ -5,7 +5,7 @@ import './Projects.css'
 function Projects() {
     return (
         <div className='cards'>
-            <h1>Check out my projects!</h1>
+            <h1 className='header'>My work</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
@@ -14,7 +14,7 @@ function Projects() {
                         <ProjectItems src='images/PDR.png' text='Track bugs on your website as a user, developer or a company admin.' label='PDR' path='https://pestdamagereport.herokuapp.com/' />
                     </ul>
                     <ul className="cards__items">
-                        <ProjectItems src='' text='This is the text for this ' label='Task Manager' path='https://pestdamagereport.herokuapp.com/' />
+                        <ProjectItems src='images/taskmanager.png' text='This is the text for this ' label='Task Manager' path='https://resttaskmanager.herokuapp.com/' />
                         <ProjectItems src='https://www.nopcommerce.com/images/thumbs/0005720_coming-soon-page_550.jpeg' text='COMING SOON' label='COMING SOON' path='' />
                         <ProjectItems src='https://www.nopcommerce.com/images/thumbs/0005720_coming-soon-page_550.jpeg' text='COMING SOON' label='COMING SOON' path='' />
                     </ul>
