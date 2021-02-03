@@ -4,6 +4,7 @@ import React from 'react'
 import Projects from '../Projects'
 import Footer from '../Footer'
 import About from '../About'
+import Contact from '../Contact'
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
             <Header />
             <About />
             <Projects />
+            <Contact />
             <Footer />
         </div>
     )

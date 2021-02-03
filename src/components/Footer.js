@@ -5,20 +5,14 @@ import './Footer.css'
 function Footer() {
     return (
         <div className='footer-container'>
-            <section className="footer-subscription">
-                <p className="footer-subscription-heading">
-                    Get in Contact with me!
-                </p>
-                <p className="footer-subscription-text">
-                    Idk where this goes
-                </p>
-            </section>
             <div class="footer-links">
-                <div class="footer-link-wrapper">
-                    <div class="footer-link-items">
-                        <h2>My info</h2>
-
-                    </div>
+                <div class="footer-links">
+                    <a href="https://github.com/JaxonNarramore">
+                        <i id='github' class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jaxonnarramore/">
+                        <i id='linkedin' class="fab fa-linkedin"></i>
+                    </a>
                 </div>
             </div>
         </div>
