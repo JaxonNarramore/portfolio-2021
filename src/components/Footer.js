@@ -7,10 +7,10 @@ function Footer() {
         <div className='footer-container'>
             <div class="footer-links">
                 <div class="footer-links">
-                    <a href="https://github.com/JaxonNarramore">
+                    <a href="https://github.com/JaxonNarramore" target='_blank'>
                         <i id='github' class="fab fa-github"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/jaxonnarramore/">
+                    <a href="https://www.linkedin.com/in/jaxonnarramore/" target='_blank'>
                         <i id='linkedin' class="fab fa-linkedin"></i>
                     </a>
                 </div>
