@@ -6,8 +6,8 @@ import './Header.css'
 function Header() {
     return (
         <div className='hero-container'>
-            <h1>Jaxon Narramore</h1>
-            <p>I want to build your project</p>
+            <h1 className='name'>Jaxon Narramore</h1>
+            <p className='heading'>Let me build your next project</p>
             <div className="hero-btns">
                 <Button className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
                     See My Work
