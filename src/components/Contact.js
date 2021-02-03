@@ -13,12 +13,12 @@ function Contact() {
                 Got a project for me? Give me a call, text or send me an email and I will get back to you as soon as possible!
             </p>
             <div className="number-container">
-                <a href="tel:+5128502204">
+                <a className='link' href="tel:+5128502204">
                     <p className='number'>
                         (512) 850-2204
                     </p>
                 </a>
-                <a href="mailto: jaxon_narramore@hotmail.com">
+                <a className='link' href="mailto: jaxon_narramore@hotmail.com">
                     <p className='email'>
                         jaxon_narramore@hotmail.com
                     </p>

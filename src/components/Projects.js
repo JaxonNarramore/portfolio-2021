@@ -5,7 +5,7 @@ import './Projects.css'
 function Projects() {
     return (
         <div className='cards'>
-            <h1 className='header'>My Work</h1>
+            <p className='header'>My Work</p>
             <i id='underline' class="fad fa-horizontal-rule"></i>
             <div className="cards__container">
                 <div className="cards__wrapper">

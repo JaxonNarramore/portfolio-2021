@@ -2,30 +2,47 @@
     font-size: 39px;
     font-weight: 500;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 55px;
+    padding-top: 80px;
+    color: white;
 }
 
 .contact-text {
     font-size: 25px;
     text-align: center;
     padding-bottom: 40px;
+    color: rgb(231, 229, 229);
 }
 
 .number {
     font-size: 23px;
+    color: white
 }
 
 .email {
     font-size: 23px;
+    color: white
+}
+
+.email:hover {
+    color: grey;
+}
+
+.number:hover {
+    color: grey;
 }
 
 .number-container {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
     padding-top: 20px;
 }
 
 #underline {
+    color: white;
+}
 
+.link {
+    text-decoration: none;
 }
