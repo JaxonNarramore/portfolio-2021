@@ -23,6 +23,7 @@
   .navbar-logo {
     color: #fff;
     justify-self: start;
+    margin-top: -20px;
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
@@ -49,6 +50,7 @@
   
   .nav-item {
     height: 80px;
+    cursor: pointer;
   }
   
   .nav-links {
