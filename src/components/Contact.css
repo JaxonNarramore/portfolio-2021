@@ -46,3 +46,11 @@
 .link {
     text-decoration: none;
 }
+
+#underline {
+    width: 60px;
+    margin: 0 auto;
+    border-width: 5px;
+    border-top: 4px solid white;
+    margin-top: 15px;
+}

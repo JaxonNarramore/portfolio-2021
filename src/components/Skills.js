@@ -3,8 +3,9 @@ import './Skills.css'
 
 function Skills() {
     return (
-        <div className='whole'>
+        <div id='skills' className='whole'>
             <p className='heading'>Skills</p>
+            <hr id='divider' />
             <div className='skills-container'>
                 <div className='div'>
                     <h2 className='h2'>Languages & Frameworks</h2>

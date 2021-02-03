@@ -4,8 +4,9 @@ import './Projects.css'
 
 function Projects() {
     return (
-        <div className='cards'>
+        <div id='projects' className='cards'>
             <p className='header'>My Work</p>
+            <hr id='divider' />
             <i id='underline' class="fad fa-horizontal-rule"></i>
             <div className="cards__container">
                 <div className="cards__wrapper">

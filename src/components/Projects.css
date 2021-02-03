@@ -6,9 +6,8 @@
 .header {
   text-align: center;
   font-size: 39px;
+  padding-bottom: 5px;
 }
-
-
 
 .cards__container {
   display: flex;

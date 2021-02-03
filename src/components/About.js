@@ -3,7 +3,7 @@ import './About.css'
 
 function About() {
     return (
-        <div>
+        <div id='about'>
             <div className='about-container'>
                 <div className="about-image">
                     <img className='image' src="images/placeholder.jpg" alt="" />

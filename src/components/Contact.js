@@ -4,10 +4,10 @@ import './Contact.css'
 
 function Contact() {
     return (
-        <div className='contact-container'>
+        <div id='contact' className='contact-container'>
             <p className="contact-heading">
                 Lets Get In Touch!
-                <i id='underline' class="fad fa-horizontal-rule"></i>
+                <hr id='underline' />
             </p>
             <p className="contact-text">
                 Got a project for me? Give me a call, text or send me an email and I will get back to you as soon as possible!
