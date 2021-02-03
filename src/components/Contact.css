@@ -25,11 +25,13 @@
 }
 
 .email:hover {
-    color: grey;
+    border-bottom: 1px solid #fff;
+    transition: all 0.2s ease-out;
 }
 
 .number:hover {
-    color: grey;
+    border-bottom: 1px solid #fff;
+    transition: all 0.2s ease-out;
 }
 
 .number-container {
