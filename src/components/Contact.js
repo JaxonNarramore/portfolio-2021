@@ -10,7 +10,7 @@ function Contact() {
                 <hr id='underline' />
             </p>
             <p className="contact-text">
-                Got a project for me? Give me a call, text or send me an email and I will get back to you as soon as possible!
+                Got a project for me? Give me a call, text, or send me an email and I will get back to you as soon as possible!
             </p>
             <div className="number-container">
                 <a className='link' href="tel:+5128502204">
