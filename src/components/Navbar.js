@@ -57,7 +57,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    <ResumeLink>Resume</ResumeLink>
+                    {button && <ResumeLink>Resume</ResumeLink>}
                 </div>
             </nav>
         </div>
