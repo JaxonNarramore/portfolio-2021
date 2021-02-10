@@ -1,0 +1,15 @@
+.resume {
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    width: 1000px !important;
+    height: auto !important;
+    margin-bottom: 0;
+    box-shadow: 10px 5px 5px rgb(71, 71, 71);
+}
+
+.back {
+    background-color: whitesmoke;
+}

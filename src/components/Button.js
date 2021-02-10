@@ -1,6 +1,7 @@
 import React from 'react'
 import './Button.css'
-import { Link, animateScroll, animateScroll as scroll } from "react-scroll";
+// import { Link, animateScroll, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const STYLES = ['btn--primary', 'btn--outline']
 
@@ -14,10 +15,8 @@ export const Button = ({ children, type, onClick, buttonStyle, buttonSize }) => 
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
     return (
-        <Link to='projects' activeClass="active" spy={true} smooth={true} offset={-60} duration={100} className='btn-mobile'>
-            <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick} type={type}>
-                {children}
-            </button>
-        </Link>
+        <button className={`btn ${checkButtonStyle} ${checkButtonSize}`} onClick={onClick} type={type}>
+            {children}
+        </button>
     )
 }

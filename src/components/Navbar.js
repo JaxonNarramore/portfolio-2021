@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import './Navbar.css'
 import { Button } from "./Button";
+import ResumeLink from './ResumeLink'
 import { Link, animateScroll as scroll } from "react-scroll";
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
     const [click, setClick] = useState(false)
@@ -55,6 +57,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
+                    <ResumeLink>Resume</ResumeLink>
                 </div>
             </nav>
         </div>
