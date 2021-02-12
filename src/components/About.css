@@ -41,4 +41,9 @@
     .about-text {
         width: 350px;
     }
+    
+    .image {
+        width: 150px;
+        height: auto;
+    }
   }

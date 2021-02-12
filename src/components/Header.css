@@ -58,7 +58,7 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 380px) {
     .hero-container > h1 {
         font-size: 40px;
         margin-top: -100px;
