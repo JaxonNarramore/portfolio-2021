@@ -56,3 +56,16 @@
     border-top: 4px solid white;
     margin-top: 15px;
 }
+
+@media only screen and (max-width: 380px) {
+    .contact-text {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .number-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+  }

@@ -133,5 +133,6 @@
   .cards__item {
     margin-bottom: 2rem;
     width: 320px;
+    margin-right: 45px;
   }
 }
