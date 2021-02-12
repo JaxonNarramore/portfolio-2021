@@ -37,3 +37,8 @@
         width: 400px;
     }
   }
+@media only screen and (max-width: 380px) {
+    .about-text {
+        width: 350px;
+    }
+  }
