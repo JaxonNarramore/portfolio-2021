@@ -36,7 +36,18 @@
     .about-text {
         width: 400px;
     }
+    .image {
+        width: 250px;
+        height: 400px;
+    }
   }
+@media only screen and (max-width: 1024px) {
+    .image {
+        width: 250px;
+        height: 400px;
+    }
+  }
+
 @media only screen and (max-width: 380px) {
     .about-text {
         width: 350px;
