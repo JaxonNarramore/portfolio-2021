@@ -69,3 +69,11 @@
         text-align: center;
     }
   }
+@media only screen and (max-width: 1024px) {
+
+    .number-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+  }
