@@ -7,6 +7,10 @@
     display: flex;
 }
 
+#about {
+    background-color: rgb(212, 212, 212);
+}
+
 .about-text {
     text-align: center;
     display: flex;
