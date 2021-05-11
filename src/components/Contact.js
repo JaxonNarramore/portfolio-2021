@@ -6,7 +6,7 @@ function Contact() {
     return (
         <div id='contact' className='contact-container'>
             <p className="contact-heading">
-                Lets Get In Touch!
+                Let's Get In Touch!
                 <hr id='underline' />
             </p>
             <p className="contact-text">

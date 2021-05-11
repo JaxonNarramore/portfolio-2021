@@ -54,7 +54,7 @@
   }
   
   .nav-item {
-    height: 80px;
+    height: 45px;
     cursor: pointer;
   }
   
@@ -68,7 +68,7 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #fff;
+    border-bottom: 3px solid #fff;
     transition: all 0.2s ease-out;
     color: white;
   }
