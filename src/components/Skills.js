@@ -9,11 +9,11 @@ function Skills() {
             <div className='skills-container'>
                 <div className='div'>
                     <h2 className='h2'>Languages & Frameworks</h2>
-                    <p className='p'>Javascript, React, Python, Django, Node, Express, HTML/CSS, Bootstrap</p>
+                    <p className='p'>Javascript, React, Python, Django, Node, Express, HTML/CSS, jQuery, Bootstrap, Foundation, Wordpress, Shopify</p>
                 </div >
                 <div className='div'>
                     <h2 className='h2'>Management & Deployment</h2>
-                    <p className='p'>Git, Github, Heroku</p>
+                    <p className='p'>Git, Github, Heroku, SEO</p>
                 </div>
                 <div className='div'>
                     <h2 className='h2'>Methodologies</h2>
@@ -21,7 +21,7 @@ function Skills() {
                 </div>
                 <div className='div'>
                     <h2 className='h2'>Databases</h2>
-                    <p className='p'>SQL, PostgreSQL, MongoDB</p>
+                    <p className='p'>SQL, PostgreSQL, MongoDB, Local Storage</p>
                 </div>
             </div>
         </div>

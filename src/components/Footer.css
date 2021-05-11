@@ -15,7 +15,8 @@
 }
 
 #github:hover {
-    color: grey;
+    color: #1f98f4;
+    transition: all 0.2s ease-out;
 }
 
 #linkedin {
@@ -25,7 +26,8 @@
 }
 
 #linkedin:hover {
-    color: grey;
+    color: #1f98f4;
+    transition: all 0.2s ease-out;
 }
 
 .footer-links {

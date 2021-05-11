@@ -96,16 +96,15 @@
   transform: scale(1.1);
 }
 
-#underline {
+/* #underline {
   font-size: 35px;
-  color: #f4623a;
+  color: #1f98f4;
   display: flex;
   justify-content: center;
-}
+} */
 
 .cards__item__info {
-  padding: 20px 30px 30px;
-  /* background-color: rgb(235, 233, 233); */
+  padding: 20px 30px 10px;
   background-color: #242424;
 }
 

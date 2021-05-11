@@ -25,12 +25,12 @@
 }
 
 .email:hover {
-    border-bottom: 1px solid #fff;
+    color: #1f98f4;
     transition: all 0.2s ease-out;
 }
 
 .number:hover {
-    border-bottom: 1px solid #fff;
+    color: #1f98f4;
     transition: all 0.2s ease-out;
 }
 
@@ -41,10 +41,6 @@
     padding-top: 20px;
 }
 
-#underline {
-    color: black;
-}
-
 .link {
     text-decoration: none;
 }
@@ -53,7 +49,7 @@
     width: 60px;
     margin: 0 auto;
     border-width: 5px;
-    border-top: 4px solid black;
+    border-top: 4px solid #1f98f4;
     margin-top: 15px;
 }
 

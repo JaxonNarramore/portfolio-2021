@@ -29,7 +29,7 @@ class Resume extends Component {
                 </Link>
                 <div className='resume'>
                     <Document
-                        file="images/Current-Resume.pdf"
+                        file="images/cr2.pdf"
                         onLoadSuccess={this.onDocumentLoadSuccess}
                     >
                         <Page pageNumber={pageNumber} width={600} />
