@@ -16,7 +16,7 @@ function Projects() {
                     </ul>
                     <ul className="cards__items">
                         <ProjectItems src='images/Space-Race.png' text='Space themed game that captures the users input to move a rocket around asteroids. Built using Javascript, HTML, and CSS' label='Space Race' path='https://jaxonnarramore.github.io/' />
-                        <ProjectItems src='images/Air-Qual.png' text='Get air quality information for anywhere in the world. Built using Javascript, Express, HTML, CSS, Axios, Bcrypt, Passport, Sequelize, and PostgreSQL.' label='Air Qual' path='https://air-qual.herokuapp.com/' />
+                        {/* <ProjectItems src='images/Air-Qual.png' text='Get air quality information for anywhere in the world. Built using Javascript, Express, HTML, CSS, Axios, Bcrypt, Passport, Sequelize, and PostgreSQL.' label='Air Qual' path='https://air-qual.herokuapp.com/' /> */}
                         <ProjectItems src='images/PDR.png' text='Track bugs on your website as a user, developer or a company admin. Built using React, Javascript, Axios, React-beautiful-dnd, Bootstrap, Socket.io, and MongoDB.' label='PDR' path='https://pestdamagereport.herokuapp.com/' />
                     </ul>
                 </div>
