@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Resume.css'
-import { Button } from './Button'
 import { Document, Page, pdfjs } from 'react-pdf'
 import { Link } from 'react-router-dom'
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
